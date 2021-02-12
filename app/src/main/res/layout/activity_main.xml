@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:gravity="center"
+        android:text="@string/txtRegistro"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <EditText
+        android:id="@+id/editTextCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/edCodigo"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <Button
+        android:id="@+id/buttonBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="@string/btnBuscar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toEndOf="@+id/editTextCodigo"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <EditText
+        android:id="@+id/editTextProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/edProducto"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <EditText
+        android:id="@+id/editTextPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/edPrecio"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <EditText
+        android:id="@+id/editTextFabricante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/edFabricante"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <Button
+        android:id="@+id/buttonInsertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/btnInsertar"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/buttonEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/btnEditar"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <Button
+        android:id="@+id/buttonEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/btnEliminar"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="475dp" />
+</LinearLayout>
+

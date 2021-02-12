@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PruebaWebServices</string>
+    <string name="edCodigo">Ingrese el código</string>
+    <string name="edProducto">Ingrese el producto</string>
+    <string name="edPrecio">Ingrese el precio</string>
+    <string name="edFabricante">Ingrese el fabricante</string>
+    <string name="btnBuscar">Buscar</string>
+    <string name="btnInsertar">Insertar</string>
+    <string name="btnEditar">Editar</string>
+    <string name="btnEliminar">Eliminar</string>
+    <string name="txtRegistro">Registro Productos</string>
+</resources>
